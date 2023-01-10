@@ -3,17 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class mainMenuSceneLoader : MonoBehaviour
+public class GameModeSceneLoader : MonoBehaviour
 {
-    public void selectionScene()
+    public void loadingScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
-    }
-
-    public void quitGame()
-    {
-        Debug.Log("Game Closed");
-        Application.Quit();
     }
 }

@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 15
+=======
+  controlID: 56
+>>>>>>> b26d440edc3e243aef36c6a8bc73c4c866865265
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -66,10 +70,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 679.2
     y: 0
+<<<<<<< HEAD
     width: 210.40002
     height: 722.8
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    width: 323
+    height: 635
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> b26d440edc3e243aef36c6a8bc73c4c866865265
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -92,10 +103,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 123.2
     height: 427.2
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    width: 257
+    height: 376
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> b26d440edc3e243aef36c6a8bc73c4c866865265
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -259,23 +277,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 123.2
     y: 0
+<<<<<<< HEAD
     width: 556
     height: 427.2
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
+=======
+    width: 786
+    height: 376
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 15}
+>>>>>>> b26d440edc3e243aef36c6a8bc73c4c866865265
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,15 +351,25 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Main Menu Asset
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\mafed\OneDrive\Desktop\FindingDory\FindingDoryGameProject\Finding
+=======
+  m_LastProjectPath: C:\Users\mjae0\OneDrive\Desktop\Finding Dory\FindingDoryGameProject\Finding
+>>>>>>> b26d440edc3e243aef36c6a8bc73c4c866865265
     Dory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: c0600000
     m_LastClickedID: 24768
     m_ExpandedIDs: 00000000bc60000000ca9a3b
+=======
+    m_SelectedIDs: e6600000
+    m_LastClickedID: 24806
+    m_ExpandedIDs: 000000007260000074600000e260000000ca9a3b
+>>>>>>> b26d440edc3e243aef36c6a8bc73c4c866865265
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +397,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000
+=======
+    m_ExpandedIDs: 000000007260000074600000
+>>>>>>> b26d440edc3e243aef36c6a8bc73c4c866865265
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,7 +531,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: f09cffffbaa6fffffca6ffff3ea7ffff7ea7ffffc0a7ffff04a8ffff44a8ffff86a8ffffcaa8ffff0aa9ffff5ea9ffff9aa9ffffd4a9ffffd8c1ffff2cfbfffff45f0000566f00006e6f0000
+=======
+      m_ExpandedIDs: 40daffff50deffffc0deffffc0eaffffa4ebffff66edffffa6eeffff0eefffff66efffff5ef2ffff8af2ffffd2f2ffffb8f3ffffe6f3fffffaf7ffff2afbfffff45f0000607b0000de7b0000567c0000267d00007a7d0000c87d000098800000ce810000
+>>>>>>> b26d440edc3e243aef36c6a8bc73c4c866865265
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -507,7 +551,11 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
+<<<<<<< HEAD
         m_ClientGUIView: {fileID: 4}
+=======
+        m_ClientGUIView: {fileID: 3}
+>>>>>>> b26d440edc3e243aef36c6a8bc73c4c866865265
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -795,9 +843,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 539.6276, y: 217.12094, z: -4.998755}
     speed: 2
     m_Value: {x: 529.28015, y: 210.8594, z: -4.8708706}
+=======
+    m_Target: {x: 401.5199, y: 175.80484, z: -0.5046513}
+    speed: 2
+    m_Value: {x: 401.5199, y: 175.80484, z: -0.5046513}
+>>>>>>> b26d440edc3e243aef36c6a8bc73c4c866865265
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -848,9 +902,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 296.97504
     speed: 2
     m_Value: 284.18665
+=======
+    m_Target: 166.53127
+    speed: 2
+    m_Value: 166.53127
+>>>>>>> b26d440edc3e243aef36c6a8bc73c4c866865265
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -936,7 +996,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -987,10 +1047,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 449
+    width: 1042
+    height: 238
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
