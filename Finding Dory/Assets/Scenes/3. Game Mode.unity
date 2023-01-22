@@ -152,9 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baf9042219f7b2447a929f21f1c26c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameModeScreen: {fileID: 352171629}
-  LoadingScreen: {fileID: 1964999510}
-  ProgressBar: {fileID: 1305198527}
 --- !u!4 &108924546
 Transform:
   m_ObjectHideFlags: 0
@@ -206,7 +203,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 366.4, y: 153}
+  m_AnchoredPosition: {x: 366.4, y: 144.7}
   m_SizeDelta: {x: 254.7502, y: 194.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &110979902
@@ -867,8 +864,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 108924545}
         m_TargetAssemblyTypeName: GameModeSceneLoader, Assembly-CSharp
-        m_MethodName: GameModeSelect
-        m_Mode: 3
+        m_MethodName: loadingScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1262,7 +1259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.6497, y: -40}
+  m_AnchoredPosition: {x: -0.6497, y: -37.4}
   m_SizeDelta: {x: 1115.73, y: 178.629}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1750397727
@@ -1395,7 +1392,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.6497, y: -86}
+  m_AnchoredPosition: {x: -0.6497, y: -80}
   m_SizeDelta: {x: 1115.73, y: 178.629}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1920996895
