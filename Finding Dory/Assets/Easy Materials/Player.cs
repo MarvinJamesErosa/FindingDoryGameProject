@@ -15,6 +15,11 @@ public class Player : MonoBehaviour
             direction = Vector3.up * strength;
         }
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            direction = Vector3.up * strength;
+        }
+
         direction.y += gravity * Time.deltaTime;
         transform.position += direction;
     }
