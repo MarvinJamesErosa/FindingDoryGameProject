@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Obstacle"))
         {
-            FindObjectOfType<GameManager>().GameOver();
+            FindObjectOfType<GameManager>().Continue();
         }
         else if (other.gameObject.CompareTag("Scoring"))
         {
