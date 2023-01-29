@@ -15,7 +15,7 @@ C:/Users/camil/FindingDoryGameProject/Finding Dory
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-57415
+62955
 Successfully changed project path to: C:/Users/camil/FindingDoryGameProject/Finding Dory
 C:/Users/camil/FindingDoryGameProject/Finding Dory
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,13 +47,7 @@ C:/Users/camil/FindingDoryGameProject/Finding Dory
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11348] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 671162776 [EditorId] 671162776 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L11UR1N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21560] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 741565897 [EditorId] 741565897 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L11UR1N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11348] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 671162776 [EditorId] 671162776 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L11UR1N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21560] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 741565897 [EditorId] 741565897 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L11UR1N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 5926.07 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.16f1 (4016570cf34f)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/camil/FindingDoryGameProject/Finding Dory/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
