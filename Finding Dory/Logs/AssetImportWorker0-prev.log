@@ -15,7 +15,7 @@ C:/Users/camil/FindingDoryGameProject/Finding Dory
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62955
+58129
 Successfully changed project path to: C:/Users/camil/FindingDoryGameProject/Finding Dory
 C:/Users/camil/FindingDoryGameProject/Finding Dory
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/camil/FindingDoryGameProject/Finding Dory
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [172] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 609383940 [EditorId] 609383940 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L11UR1N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23788] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 429195532 [EditorId] 429195532 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L11UR1N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [172] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 609383940 [EditorId] 609383940 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L11UR1N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23788] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 429195532 [EditorId] 429195532 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L11UR1N0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4331.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 270.31 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,8 +67,1293 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.117679 seconds.
+Registered in 0.021168 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 260.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2319ms)
+		BeginReloadAssembly (292ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1569ms)
+			LoadAssemblies (281ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (146ms)
+			SetupLoadedEditorAssemblies (936ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (261ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (375ms)
+				ProcessInitializeOnLoadMethodAttributes (262ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.047095 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 330.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.515 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4518ms)
+		BeginReloadAssembly (439ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (3675ms)
+			LoadAssemblies (422ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1167ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (298ms)
+			SetupLoadedEditorAssemblies (1595ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (331ms)
+				BeforeProcessingInitializeOnLoad (288ms)
+				ProcessInitializeOnLoadAttributes (756ms)
+				ProcessInitializeOnLoadMethodAttributes (157ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.74 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.5 KB). Loaded Objects now: 4560.
+Memory consumption went from 154.3 MB to 154.2 MB.
+Total: 16.469900 ms (FindLiveObjects: 1.017200 ms CreateObjectMapping: 2.213400 ms MarkObjects: 12.982200 ms  DeleteObjects: 0.254300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.210181 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.208 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7210ms)
+		BeginReloadAssembly (709ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (6069ms)
+			LoadAssemblies (817ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1181ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (424ms)
+			SetupLoadedEditorAssemblies (2938ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (98ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (449ms)
+				ProcessInitializeOnLoadAttributes (1793ms)
+				ProcessInitializeOnLoadMethodAttributes (534ms)
+				AfterProcessingInitializeOnLoad (59ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4563.
+Memory consumption went from 152.2 MB to 152.2 MB.
+Total: 12.637000 ms (FindLiveObjects: 0.803100 ms CreateObjectMapping: 0.850200 ms MarkObjects: 10.867200 ms  DeleteObjects: 0.112900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.121403 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 8.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 43.152 seconds
+Domain Reload Profiling:
+	ReloadAssembly (43158ms)
+		BeginReloadAssembly (7481ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (735ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (1587ms)
+		EndReloadAssembly (31264ms)
+			LoadAssemblies (5469ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (9811ms)
+			ReleaseScriptCaches (34ms)
+			RebuildScriptCaches (2082ms)
+			SetupLoadedEditorAssemblies (13542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (360ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (12ms)
+				BeforeProcessingInitializeOnLoad (3419ms)
+				ProcessInitializeOnLoadAttributes (8705ms)
+				ProcessInitializeOnLoadMethodAttributes (872ms)
+				AfterProcessingInitializeOnLoad (56ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 26.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (25.7 KB). Loaded Objects now: 4566.
+Memory consumption went from 152.2 MB to 152.2 MB.
+Total: 15.675000 ms (FindLiveObjects: 1.396100 ms CreateObjectMapping: 1.090900 ms MarkObjects: 13.052000 ms  DeleteObjects: 0.132800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.115143 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8381ms)
+		BeginReloadAssembly (916ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (4312ms)
+			LoadAssemblies (835ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1414ms)
+			ReleaseScriptCaches (10ms)
+			RebuildScriptCaches (204ms)
+			SetupLoadedEditorAssemblies (1693ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (102ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (362ms)
+				ProcessInitializeOnLoadAttributes (1007ms)
+				ProcessInitializeOnLoadMethodAttributes (162ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (85ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 238.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4569.
+Memory consumption went from 152.2 MB to 152.2 MB.
+Total: 12.135800 ms (FindLiveObjects: 0.677000 ms CreateObjectMapping: 0.928100 ms MarkObjects: 10.413400 ms  DeleteObjects: 0.113900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 375620.370137 seconds.
+  path: Assets/Scenes/1. Logo.unity
+  artifactKey: Guid(f463fc62aa0e4e8488719b882fec3796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1. Logo.unity using Guid(f463fc62aa0e4e8488719b882fec3796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c87470a1429be98e02dcd672e8bf056') in 0.730309 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.124760 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 22.979 seconds
+Domain Reload Profiling:
+	ReloadAssembly (22989ms)
+		BeginReloadAssembly (2815ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (80ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (635ms)
+		EndReloadAssembly (18749ms)
+			LoadAssemblies (1692ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (3351ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (660ms)
+			SetupLoadedEditorAssemblies (11783ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (111ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (1130ms)
+				ProcessInitializeOnLoadAttributes (6754ms)
+				ProcessInitializeOnLoadMethodAttributes (2875ms)
+				AfterProcessingInitializeOnLoad (897ms)
+				EditorAssembliesLoaded (9ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (270ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 23.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4572.
+Memory consumption went from 152.3 MB to 152.2 MB.
+Total: 14.262800 ms (FindLiveObjects: 1.386100 ms CreateObjectMapping: 0.915000 ms MarkObjects: 11.841000 ms  DeleteObjects: 0.117400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044740 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.434 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4437ms)
+		BeginReloadAssembly (680ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (53ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (3351ms)
+			LoadAssemblies (569ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (925ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (172ms)
+			SetupLoadedEditorAssemblies (1565ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (386ms)
+				ProcessInitializeOnLoadAttributes (893ms)
+				ProcessInitializeOnLoadMethodAttributes (194ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 16.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4575.
+Memory consumption went from 152.3 MB to 152.2 MB.
+Total: 10.630200 ms (FindLiveObjects: 0.736100 ms CreateObjectMapping: 0.807100 ms MarkObjects: 8.968800 ms  DeleteObjects: 0.114200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 117.468963 seconds.
+  path: Assets/Scenes/3. Game Mode.unity
+  artifactKey: Guid(22430c0cea6fe514998ffe40497329b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3. Game Mode.unity using Guid(22430c0cea6fe514998ffe40497329b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f03e9ee225babab8429a17b204bb81') in 0.045867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Scenes/2. Main Menu.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2. Main Menu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb79d9a46be212a83e7adb00d947bc3f') in 0.040060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scenes/7. Option Screen.unity
+  artifactKey: Guid(877edb9e7be6aa54eb97556fb4134b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/7. Option Screen.unity using Guid(877edb9e7be6aa54eb97556fb4134b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e831ec61f385e2b7fce5b2be342e44f8') in 0.072872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001682 seconds.
+  path: Assets/Scenes/4. Easy.unity
+  artifactKey: Guid(f50d10eadf202d3498f3a2948cde4552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/4. Easy.unity using Guid(f50d10eadf202d3498f3a2948cde4552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a0bdb055636a1b385640c12ca88275') in 0.050223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.400159 seconds.
+  path: Assets/Scenes/9. About Us.unity
+  artifactKey: Guid(d129752e791d3d14ba01e8f8d8efe774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/9. About Us.unity using Guid(d129752e791d3d14ba01e8f8d8efe774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba48e076550a42aceaa639d9a9a7721') in 0.226152 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.135175 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 19.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (19426ms)
+		BeginReloadAssembly (5723ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (565ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1646ms)
+		EndReloadAssembly (10859ms)
+			LoadAssemblies (3131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1902ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (1228ms)
+			SetupLoadedEditorAssemblies (6314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (159ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (3684ms)
+				ProcessInitializeOnLoadAttributes (1966ms)
+				ProcessInitializeOnLoadMethodAttributes (439ms)
+				AfterProcessingInitializeOnLoad (55ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 55.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4578.
+Memory consumption went from 152.3 MB to 152.2 MB.
+Total: 17.472100 ms (FindLiveObjects: 7.838000 ms CreateObjectMapping: 0.637600 ms MarkObjects: 8.908500 ms  DeleteObjects: 0.084500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 116.498235 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets
+  artifactKey: Guid(68482c5c4391c5941b5b8427b4304f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets using Guid(68482c5c4391c5941b5b8427b4304f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3607749088ec05829f3a1acc881c18d') in 0.071507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052003 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/About Us & Credits Text Box.png
+  artifactKey: Guid(20af25c41c587c24a891d8cf6b94538a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/About Us & Credits Text Box.png using Guid(20af25c41c587c24a891d8cf6b94538a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1a093a8a532c3850355b43a9a5ff88') in 1.056820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Score 1.png
+  artifactKey: Guid(57504f757a84d4942931a9acd1a94515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Score 1.png using Guid(57504f757a84d4942931a9acd1a94515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad103e0aa7891d3afd0a777e57d0002') in 0.432629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/How to Play Text.png
+  artifactKey: Guid(66e334c696bf32d4792a6541313fcaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/How to Play Text.png using Guid(66e334c696bf32d4792a6541313fcaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44505cfa7cea3ee9ac659f2d7a22b850') in 0.730930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/About Us Text.png
+  artifactKey: Guid(9ebed26951a560940851007ecfdb6ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/About Us Text.png using Guid(9ebed26951a560940851007ecfdb6ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c0e680eb96d4f837b7da5dc2bde39f') in 0.592881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Skip Button.png
+  artifactKey: Guid(96bfc84f9438df24f81310f5d5b4fa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Skip Button.png using Guid(96bfc84f9438df24f81310f5d5b4fa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e073bc8004be0ffcbbf44d183e2d30') in 0.272366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Background Platform.png
+  artifactKey: Guid(8dcf21191221a0a41a465729c29544a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Background Platform.png using Guid(8dcf21191221a0a41a465729c29544a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d93008d7a448f17ebaca80e32c5588') in 0.143568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Score 4.png
+  artifactKey: Guid(314e1e1614d66a24e9159ea64243ddbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Score 4.png using Guid(314e1e1614d66a24e9159ea64243ddbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b607cf082308bb8750f450fdcd957d') in 0.364802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Credits Text Box (Sample Only).png
+  artifactKey: Guid(4471d284231dde44a8464b08367706ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Credits Text Box (Sample Only).png using Guid(4471d284231dde44a8464b08367706ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f84d7d8366601ee03a9ec247c225f0') in 0.413988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Continue Text Box.png
+  artifactKey: Guid(57b438e553cbba445ab770e53dd95130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Continue Text Box.png using Guid(57b438e553cbba445ab770e53dd95130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dcae64cfde11317342c0b24e394e1c') in 0.366674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Empty Text Box 1.png
+  artifactKey: Guid(94d3cbd3634144245958a00083ac91d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Empty Text Box 1.png using Guid(94d3cbd3634144245958a00083ac91d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b90cdd0e3d859625daa9872015fe8c8') in 0.377660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish Text  - Eel.png
+  artifactKey: Guid(aabf1492fc02f9b43b3becd8e1c496ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish Text  - Eel.png using Guid(aabf1492fc02f9b43b3becd8e1c496ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6e215ea8d2e9f36410d78798bdc052') in 0.533458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Bloat.png
+  artifactKey: Guid(7889e341728e7294d940db2d8bca5d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Bloat.png using Guid(7889e341728e7294d940db2d8bca5d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e673dc5c4dcdace991a3ef6bf52ab334') in 0.101310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001479 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Off Sound Effects Icon.png
+  artifactKey: Guid(9ca2fb3b4d2bafa4687eaac1488095f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Off Sound Effects Icon.png using Guid(9ca2fb3b4d2bafa4687eaac1488095f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e77a4a3b05b416dac5857d2bf5a56fe') in 0.495493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/On Background Music Icon.png
+  artifactKey: Guid(2f1e14b1d64e83949a1f07dc1b9d5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/On Background Music Icon.png using Guid(2f1e14b1d64e83949a1f07dc1b9d5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b4f1bfd41c46095934e023ea2074fc') in 0.454218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Options Icon.png
+  artifactKey: Guid(d17c95f38f47a3e47b5c3e2756cdfe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Options Icon.png using Guid(d17c95f38f47a3e47b5c3e2756cdfe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8e40410650dd4c22375924d34fdfeb') in 0.464938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001356 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Return Button.png
+  artifactKey: Guid(486de029206376a47a5c43c4d7b5e29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Return Button.png using Guid(486de029206376a47a5c43c4d7b5e29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a483d8b04d59ba00bf48889d713e332') in 0.716415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Medium Button.png
+  artifactKey: Guid(638a21e3da236294c96388f3be750358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Medium Button.png using Guid(638a21e3da236294c96388f3be750358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b02d73ebbec7761874f32d10f5ccc22') in 0.726927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000780 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Game Over Empty Text Box.png
+  artifactKey: Guid(5d330434b09022046be5561d4e03f677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Game Over Empty Text Box.png using Guid(5d330434b09022046be5561d4e03f677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd7af1fd4c795dd621d6350b08f78af') in 0.295530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/How to Play Title Text.png
+  artifactKey: Guid(9659dab963043ad408217a51f077adc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/How to Play Title Text.png using Guid(9659dab963043ad408217a51f077adc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da590a953540404781ba3b193a4833f') in 0.418635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Dory.png
+  artifactKey: Guid(32811480877113c4e830290ccaace8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Dory.png using Guid(32811480877113c4e830290ccaace8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd31133c37269669527271419c6648e') in 0.382900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Continue Title Text.png
+  artifactKey: Guid(7570ca29f91c781459a72b5d25c2df31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Continue Title Text.png using Guid(7570ca29f91c781459a72b5d25c2df31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b412c74d20966845749c86b29ad22f7a') in 0.639833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Off Background Music Icon.png
+  artifactKey: Guid(547f86d54bb4260448dd2c694d0aa679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Off Background Music Icon.png using Guid(547f86d54bb4260448dd2c694d0aa679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8213a06cefb315e71d255f5e6fa45098') in 0.461163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Score 7.png
+  artifactKey: Guid(a9f619970b03e9a4aa92f7c653e23734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Score 7.png using Guid(a9f619970b03e9a4aa92f7c653e23734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db6f9e06d105ebc87da505038ca04fd') in 0.608513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Menu Button.png
+  artifactKey: Guid(adea0d4b7c0bc5f409bf3286b4740e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Menu Button.png using Guid(adea0d4b7c0bc5f409bf3286b4740e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbffc14ded77f92a9927e0753387923') in 0.426286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Paused Title Text.png
+  artifactKey: Guid(9658267e9dea44a4d91c36feea5e5330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Paused Title Text.png using Guid(9658267e9dea44a4d91c36feea5e5330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207b471e3da156c7a05dca35fbe85560') in 0.519956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Empty Text Box 3.png
+  artifactKey: Guid(6f5608c22b5f2ac44ba19a3f1d0a4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Empty Text Box 3.png using Guid(6f5608c22b5f2ac44ba19a3f1d0a4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ecbbca712595728a9dcfe4a9a50acd') in 0.538665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Ground.png
+  artifactKey: Guid(a4e7a1537865fa84fb1e501e10959aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Ground.png using Guid(a4e7a1537865fa84fb1e501e10959aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a156d88841108b58d85c098dca60d412') in 0.052043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Score 8.png
+  artifactKey: Guid(af598216db2db8e46ba5fd961b426f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Score 8.png using Guid(af598216db2db8e46ba5fd961b426f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33823ddf90713c49b4bdc402a127fae7') in 0.512655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Pause Icon.png
+  artifactKey: Guid(1b7c9a56e6b72154bb0ae704cc6439b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Pause Icon.png using Guid(1b7c9a56e6b72154bb0ae704cc6439b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace955cd1d9b52b6bfa7103cda5e1258') in 0.388638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Finding Dory Text.png
+  artifactKey: Guid(0a0fa7d9302380a44afad9f1ef7339b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Finding Dory Text.png using Guid(0a0fa7d9302380a44afad9f1ef7339b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266dc0372f44e00e127cdd98849ad7a6') in 0.423981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Option Text Box.png
+  artifactKey: Guid(459ef77ee2c791249bc420aec1efe515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Option Text Box.png using Guid(459ef77ee2c791249bc420aec1efe515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f017ffb76fb7a4c8c9745bc9a218ec20') in 0.726513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Score Zero.png
+  artifactKey: Guid(3ffacac25cb1f5447a87f2c46cb35167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Score Zero.png using Guid(3ffacac25cb1f5447a87f2c46cb35167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9084f24fe5736c58bc4025e8f84a0ba') in 1.803667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Score 5.png
+  artifactKey: Guid(4ffc904a8e142f549929aa0a3a821b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Score 5.png using Guid(4ffc904a8e142f549929aa0a3a821b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3282383701f92902c3b802efe240c888') in 0.386544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Score 2.png
+  artifactKey: Guid(c4f934eddd709b34e967a55c33508d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Score 2.png using Guid(c4f934eddd709b34e967a55c33508d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b60a43c459befd3ac12e263b5e4d4c4') in 0.428723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Answer Button.png
+  artifactKey: Guid(c0774a78318031c4ab154c3cf65bb880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Answer Button.png using Guid(c0774a78318031c4ab154c3cf65bb880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c8546531109608383c22e88cebf331') in 0.433877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Easy Button.png
+  artifactKey: Guid(0b5e7bc368d5b544cad7b1c794d4cfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Easy Button.png using Guid(0b5e7bc368d5b544cad7b1c794d4cfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e005124fcf823ceece3ee6c3976306a') in 0.431812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Submit Button.png
+  artifactKey: Guid(c12e656b77132024cb7d88d144159d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Submit Button.png using Guid(c12e656b77132024cb7d88d144159d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7467f896c08372a41518d58eef88da1b') in 0.431948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003218 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/How to Play Icon.png
+  artifactKey: Guid(784271804b5790a449bc9655e24f8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/How to Play Icon.png using Guid(784271804b5790a449bc9655e24f8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fce3ec02969b9d73239d18520930ec') in 0.449985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Hard Button.png
+  artifactKey: Guid(a8c6733ebea34f745bd38e32a71c9084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Hard Button.png using Guid(a8c6733ebea34f745bd38e32a71c9084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae19f8eb5d222e5860dffb5a1b2e2367') in 0.639606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Quit Button.png
+  artifactKey: Guid(5d140e862e28eac49b8f864b1e28bb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Quit Button.png using Guid(5d140e862e28eac49b8f864b1e28bb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8239861e5880eb4d4ea584507c0421c') in 0.395318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Credits Title Text.png
+  artifactKey: Guid(19b5ab8dc17126c4aa2e6fc2f37db124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Credits Title Text.png using Guid(19b5ab8dc17126c4aa2e6fc2f37db124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658034b12c1e2c35314f0c15530a0a32') in 0.429411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Hint Icon.png
+  artifactKey: Guid(7179aef6e322c56489ee9dff58b42a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Hint Icon.png using Guid(7179aef6e322c56489ee9dff58b42a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10a38edc6464c06a79fb61d2595f850') in 0.449129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/How to Play Text Box.png
+  artifactKey: Guid(d7f14184ee07d7b4fac7edf211709a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/How to Play Text Box.png using Guid(d7f14184ee07d7b4fac7edf211709a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864df29b1f56cd55dfb621ea2f648273') in 0.423736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Empty Text Box 2.png
+  artifactKey: Guid(d3f1a8ff2bcbfc8499c35a8c5e72d600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Empty Text Box 2.png using Guid(d3f1a8ff2bcbfc8499c35a8c5e72d600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cbf8d24861e02eb91443b66b7b635a') in 0.371942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Game Completed Text Box.png
+  artifactKey: Guid(1181cac99c0b55248a8b76d8f5682b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Game Completed Text Box.png using Guid(1181cac99c0b55248a8b76d8f5682b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f546450c8258f1bbaf4d3a9d1c19e60a') in 0.370390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish - Line.png
+  artifactKey: Guid(a0c59e50991a51b49b644f336953bdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish - Line.png using Guid(a0c59e50991a51b49b644f336953bdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce3e04cd8c0030f6bc0d93bbee37992') in 0.445462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000959 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish Text - Shark.png
+  artifactKey: Guid(9956de0a317ad104f948000ed5864016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish Text - Shark.png using Guid(9956de0a317ad104f948000ed5864016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b881088c8f265b4eaf47f39c722eac6') in 0.466859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Game Completed Empty Text Box.png
+  artifactKey: Guid(be8ae118259145a4bb4d18f9f1d769df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Game Completed Empty Text Box.png using Guid(be8ae118259145a4bb4d18f9f1d769df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6fd9cc8c66ef5e08fff1c7d915ac14') in 0.388280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Resume Button.png
+  artifactKey: Guid(34bf36977db64794eb1049875f577ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Resume Button.png using Guid(34bf36977db64794eb1049875f577ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba6dfac4275234a7d3b6d2237ab7c4f') in 0.715864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000969 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Continue Text 1.png
+  artifactKey: Guid(f0925bbc9e5b9c641b9a8cbcb70697e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Continue Text 1.png using Guid(f0925bbc9e5b9c641b9a8cbcb70697e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcdf71b7dce10c6b0e711b7d724d060') in 0.359631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Play Button.png
+  artifactKey: Guid(43ebca6a548b51d43922b462b9283779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Play Button.png using Guid(43ebca6a548b51d43922b462b9283779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26d32cabca5a5df3578e406e1b26833') in 0.506544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Score 3.png
+  artifactKey: Guid(af0217478f58d024f901b9daa41f5288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Score 3.png using Guid(af0217478f58d024f901b9daa41f5288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2268de443d9341877c29423fdaf85b31') in 0.480767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Select Mode Text.png
+  artifactKey: Guid(ba1d771ada795d74e83822154396f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Select Mode Text.png using Guid(ba1d771ada795d74e83822154396f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59554bc6dace1c4918a279156bd84efd') in 0.399296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Game Over Text.png
+  artifactKey: Guid(a9ab1f126a000894d8b7b569a2745687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Game Over Text.png using Guid(a9ab1f126a000894d8b7b569a2745687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdfbc758fbe063b378772882c171a2d') in 0.404752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Options Title Text.png
+  artifactKey: Guid(f6d6bc71b90347644ab33c7c2329fe85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Options Title Text.png using Guid(f6d6bc71b90347644ab33c7c2329fe85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d038ac3a727c0cd82e40abd4e20e4c') in 0.468933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish - Shark.png
+  artifactKey: Guid(b6e25b4998a247c46ad482dfb03fd709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish - Shark.png using Guid(b6e25b4998a247c46ad482dfb03fd709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8923c27e1a1bea5ba4469b00b6a35ee7') in 0.384097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/How to Play Screen.png
+  artifactKey: Guid(e6770e05ee077a248b44f4224f82598f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/How to Play Screen.png using Guid(e6770e05ee077a248b44f4224f82598f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e2c3812338de24391d07a6b3be4dad') in 0.366920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Play Again Button.png
+  artifactKey: Guid(32f6593e7ba2b37498edfa6e8c9980c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Play Again Button.png using Guid(32f6593e7ba2b37498edfa6e8c9980c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c162448efb29489ef77286d451307d02') in 0.606501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001524 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish Text Box.png
+  artifactKey: Guid(aa77fb03f597048458d6b5b861387848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish Text Box.png using Guid(aa77fb03f597048458d6b5b861387848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acd7b103f065e73e58dcb7940a719b0') in 0.379450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Pipe.png
+  artifactKey: Guid(1cb6744da8eb4f649a5418b7aa4ef46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Pipe.png using Guid(1cb6744da8eb4f649a5418b7aa4ef46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074b31d5e12c9aca53181d3bfc89ac8c') in 0.382265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Paused Text Box.png
+  artifactKey: Guid(1ba6e7bea654cf440804ffe0d7703716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Paused Text Box.png using Guid(1ba6e7bea654cf440804ffe0d7703716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed22d2d9d2808be9c04238fb2d2102c9') in 0.435444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Game Over Text Box.png
+  artifactKey: Guid(e0080d2828309b149b1b5b835eac67b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Game Over Text Box.png using Guid(e0080d2828309b149b1b5b835eac67b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ca82dddf5c9b7ac1f5cda7d2cd38be') in 0.587998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002186 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Guess The Fish Title Text.png
+  artifactKey: Guid(6dd7502540c425a449cce32cd9aae86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Guess The Fish Title Text.png using Guid(6dd7502540c425a449cce32cd9aae86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2538791c566bc8ef5819fd42bf98bae') in 0.476811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Score 9.png
+  artifactKey: Guid(54cfed59c57ffe84faae7f665a29746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Score 9.png using Guid(54cfed59c57ffe84faae7f665a29746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4359ffdd9cdb8a48baac6458873783f') in 0.462097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/On Sound Effects Icon.png
+  artifactKey: Guid(e982b59611520b848a0f08e934a351b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/On Sound Effects Icon.png using Guid(e982b59611520b848a0f08e934a351b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd996fe34939fc91a1cef4c57fcd9273e') in 0.534834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000829 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Score 6.png
+  artifactKey: Guid(1146b4144824d364bad74b1a7175e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Score 6.png using Guid(1146b4144824d364bad74b1a7175e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cb4ca12f1a2a66f64fc206341f9a5e') in 0.393736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/About us Icon.png
+  artifactKey: Guid(f029fbd1c1a1ce54a9cdb4025903c79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/About us Icon.png using Guid(f029fbd1c1a1ce54a9cdb4025903c79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0619b6ba1ff8af4da114f3a1073a3e2') in 0.547974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish - Eel.png
+  artifactKey: Guid(8c325ba5344954246b8dced479f7b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Guess the Fish - Eel.png using Guid(8c325ba5344954246b8dced479f7b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da235488d1eb243c67bc3b346bb47cee') in 0.732634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Under the Sea Background.png
+  artifactKey: Guid(dbd508cf928e746419c55fdcc161029b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Under the Sea Background.png using Guid(dbd508cf928e746419c55fdcc161029b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4098a5efb0d30e1b23b7e19ddd79dcc3') in 0.117876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Game Completed Text.png
+  artifactKey: Guid(17bb22b7d9122384d9e894b1fc872285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Game Completed Text.png using Guid(17bb22b7d9122384d9e894b1fc872285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd27cc8f6c924f5ff2b85da00112f727') in 0.497975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Continue Text 2.png
+  artifactKey: Guid(c2b8ed9797eaaa443833661901315eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Continue Text 2.png using Guid(c2b8ed9797eaaa443833661901315eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c80486aef75ec2081a34b863d20ca6') in 0.307524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/About Us Title Text.png
+  artifactKey: Guid(24ac61819b72e264aa43bc304fbc891d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/About Us Title Text.png using Guid(24ac61819b72e264aa43bc304fbc891d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece086c7992b530e1e1065f247ce4795') in 0.417543 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.277719 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.120 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10124ms)
+		BeginReloadAssembly (1609ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (696ms)
+		EndReloadAssembly (7087ms)
+			LoadAssemblies (1380ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2939ms)
+			ReleaseScriptCaches (10ms)
+			RebuildScriptCaches (223ms)
+			SetupLoadedEditorAssemblies (2720ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (70ms)
+				SetLoadedEditorAssemblies (171ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (859ms)
+				ProcessInitializeOnLoadAttributes (1391ms)
+				ProcessInitializeOnLoadMethodAttributes (187ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 23.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.8 KB). Loaded Objects now: 4596.
+Memory consumption went from 156.7 MB to 156.7 MB.
+Total: 12.380400 ms (FindLiveObjects: 0.694600 ms CreateObjectMapping: 0.889500 ms MarkObjects: 10.697000 ms  DeleteObjects: 0.095800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.046013 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.532 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7534ms)
+		BeginReloadAssembly (607ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (77ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (6186ms)
+			LoadAssemblies (489ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1000ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (162ms)
+			SetupLoadedEditorAssemblies (3137ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (75ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (1193ms)
+				ProcessInitializeOnLoadAttributes (1379ms)
+				ProcessInitializeOnLoadMethodAttributes (443ms)
+				AfterProcessingInitializeOnLoad (41ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4599.
+Memory consumption went from 156.7 MB to 156.7 MB.
+Total: 20.652500 ms (FindLiveObjects: 2.089900 ms CreateObjectMapping: 3.934800 ms MarkObjects: 14.128700 ms  DeleteObjects: 0.494900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.120610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 16.025 seconds
+Domain Reload Profiling:
+	ReloadAssembly (16028ms)
+		BeginReloadAssembly (4762ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (70ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (2930ms)
+		EndReloadAssembly (10290ms)
+			LoadAssemblies (1236ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2521ms)
+			ReleaseScriptCaches (9ms)
+			RebuildScriptCaches (283ms)
+			SetupLoadedEditorAssemblies (5662ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (95ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (4484ms)
+				ProcessInitializeOnLoadAttributes (895ms)
+				ProcessInitializeOnLoadMethodAttributes (143ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4602.
+Memory consumption went from 156.7 MB to 156.7 MB.
+Total: 10.038200 ms (FindLiveObjects: 0.971900 ms CreateObjectMapping: 0.670800 ms MarkObjects: 8.298900 ms  DeleteObjects: 0.093000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1137.955628 seconds.
+  path: Assets/Logo Scene
+  artifactKey: Guid(b8a846fb5aed0ff4e8f3aab143c62060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logo Scene using Guid(b8a846fb5aed0ff4e8f3aab143c62060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb82f6fc5036060cdb288d40017bd5a') in 0.098691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.949352 seconds.
+  path: Assets/Logo Scene/LogoSceneLoader.cs
+  artifactKey: Guid(96faa45ecdd11984786a42799afb28ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logo Scene/LogoSceneLoader.cs using Guid(96faa45ecdd11984786a42799afb28ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25be6d770025cff3fcaed7c374ba3943') in 0.178234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 399.575228 seconds.
+  path: Assets/Scenes/8. How to Play 1.unity
+  artifactKey: Guid(cd25804a13633f146bc57e4b5ee32f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/8. How to Play 1.unity using Guid(cd25804a13633f146bc57e4b5ee32f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734e83e297f2ea0deb0e60e09bced51b') in 0.057462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 610.465551 seconds.
+  path: Assets/Easy Materials/Background.mat
+  artifactKey: Guid(cd755cc5a08a75644bc04c19af2d516e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Materials/Background.mat using Guid(cd755cc5a08a75644bc04c19af2d516e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ef75eb279d881487c0379e5289da38') in 1.470620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Easy Materials/Paused Text Box.png
+  artifactKey: Guid(f9b20d3f3004f46409344180a3f86a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Materials/Paused Text Box.png using Guid(f9b20d3f3004f46409344180a3f86a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624fc2b3dda7da708ecf215501419f47') in 0.586174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Easy Materials/Pipes.prefab
+  artifactKey: Guid(a3f4a8331477d3046a84096e583af54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Materials/Pipes.prefab using Guid(a3f4a8331477d3046a84096e583af54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841dbb5479b1e4b81d51486beb3e5040') in 0.559156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Easy Materials/Ground.mat
+  artifactKey: Guid(eddc4c3cbb028ae48a1c99298d33ea43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Materials/Ground.mat using Guid(eddc4c3cbb028ae48a1c99298d33ea43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000f9f0a69cab98a32ff41a40c0a7b03') in 0.147219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Easy Materials/Pipe.png
+  artifactKey: Guid(8ba96b374eeb1124ebfb6e5b71226a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Materials/Pipe.png using Guid(8ba96b374eeb1124ebfb6e5b71226a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddfcd285f1927d39de7dd551e854c76') in 0.364898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Easy Materials/Pause Icon.png
+  artifactKey: Guid(24d6e6663cc438f47acc916d349d7e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Materials/Pause Icon.png using Guid(24d6e6663cc438f47acc916d349d7e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84fd50da686e5ddf81238098a7aba2b') in 0.531006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Easy Materials/Ground.png
+  artifactKey: Guid(c7598bac8c8ac524585b689f45ca17b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Materials/Ground.png using Guid(c7598bac8c8ac524585b689f45ca17b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7283a11f8b0fcbb48f138d86b21f1ed') in 0.100664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.246493 seconds.
+  path: Assets/Splash Screen Asset/Logo Screen - Final.mp4
+  artifactKey: Guid(df0461bd921b07b42805eec9ba315249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Splash Screen Asset/Logo Screen - Final.mp4 using Guid(df0461bd921b07b42805eec9ba315249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11c7a971a80dbfc88b3cd364943909f') in 0.331069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.529257 seconds.
+  path: Assets/Playscreen Materials/Background Platform.png
+  artifactKey: Guid(6a67603ee59823a4980075349e846579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playscreen Materials/Background Platform.png using Guid(6a67603ee59823a4980075349e846579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dbfeb330e01b668fc52fb4d85e4c7e') in 4.478513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004520 seconds.
+  path: Assets/Playscreen Materials/Pipe.png
+  artifactKey: Guid(05966377f96c9f8428956e0c935e6578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playscreen Materials/Pipe.png using Guid(05966377f96c9f8428956e0c935e6578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106cf2af0b45f48b91ce2df5cf6b2bbb') in 4.167647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000704 seconds.
+  path: Assets/Playscreen Materials/Bloat.png
+  artifactKey: Guid(b82a7936228c9f848bd4575d4e412db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playscreen Materials/Bloat.png using Guid(b82a7936228c9f848bd4575d4e412db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3a4fcc793940a945ff4a1c285b111b') in 3.348823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002629 seconds.
+  path: Assets/Playscreen Materials/Under the Sea Background.png
+  artifactKey: Guid(ea7a5257ecbe10d4397bd2550f3eab38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playscreen Materials/Under the Sea Background.png using Guid(ea7a5257ecbe10d4397bd2550f3eab38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbfd59094450ff1bb1e5cb311560457') in 1.665798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.011584 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0318ab4d1a2c9de1ee099cf66114bf82') in 0.066674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.969501 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs
+  artifactKey: Guid(5bff2544887143f5807c7d5059d07f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs using Guid(5bff2544887143f5807c7d5059d07f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf53e5cb1c8fd3d846cad8fe7c7be5ad') in 0.078292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+  artifactKey: Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab using Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23728d73248ae8443d232f0da96d1abf') in 0.561220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca621653659ba731f89270f332b3767') in 0.154479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000831 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3d3152cfc7fb9a1777718d36dbae7b') in 0.185262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.602743 seconds.
+  path: Assets/Easy Materials
+  artifactKey: Guid(4c548c4a7ce8c694ea71af8a2e3c010f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Materials using Guid(4c548c4a7ce8c694ea71af8a2e3c010f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424a224440f43df22b1a7a8da0e456dd') in 0.049870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.033949 seconds.
+  path: Assets/Finding Dory Assets
+  artifactKey: Guid(9e293727b42874a4c9506d1768f6916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets using Guid(9e293727b42874a4c9506d1768f6916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3280fe7262390e5bd651689b962be352') in 0.047488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.249161 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Materials
+  artifactKey: Guid(31e96640bc9a6ac44b4dc4a326dc5c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Materials using Guid(31e96640bc9a6ac44b4dc4a326dc5c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3689348c66d6c66fb7ed55b4bd8377ef') in 0.059126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Finding Dory Assets/Finding Dory Assets/Materials/Bloat.mat
+  artifactKey: Guid(6b83e8c0a098e8748b22c34928319ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Finding Dory Assets/Finding Dory Assets/Materials/Bloat.mat using Guid(6b83e8c0a098e8748b22c34928319ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a2ee18b09dc20748b8054c21805ed0') in 0.066673 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.217597 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\camil\FindingDoryGameProject\Finding Dory\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 45.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (45752ms)
+		BeginReloadAssembly (9250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4980ms)
+		EndReloadAssembly (30718ms)
+			LoadAssemblies (5047ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (8694ms)
+			ReleaseScriptCaches (26ms)
+			RebuildScriptCaches (1676ms)
+			SetupLoadedEditorAssemblies (15691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (718ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (3228ms)
+				ProcessInitializeOnLoadAttributes (11034ms)
+				ProcessInitializeOnLoadMethodAttributes (247ms)
+				AfterProcessingInitializeOnLoad (458ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (186ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 16.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (25.4 KB). Loaded Objects now: 4643.
+Memory consumption went from 157.1 MB to 157.1 MB.
+Total: 20.335100 ms (FindLiveObjects: 5.232900 ms CreateObjectMapping: 3.272400 ms MarkObjects: 11.700900 ms  DeleteObjects: 0.123700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2761.502659 seconds.
+  path: Assets/Splash Screen Asset/Loading Screen - Final.png
+  artifactKey: Guid(daeabf40519d27e44a8bba59b71ca252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Splash Screen Asset/Loading Screen - Final.png using Guid(daeabf40519d27e44a8bba59b71ca252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9448730f30a8a89ec18077d8ba10471c') in 61.803283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4385.269575 seconds.
+  path: Assets/Playscreen Materials
+  artifactKey: Guid(c5a578599c2835a4b92b42d386d8bf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playscreen Materials using Guid(c5a578599c2835a4b92b42d386d8bf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13681cb0da441cb087e8c07c7c29f0d') in 0.252269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.535049 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(d217ab2c22315b041bd9e2e427a1fed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(d217ab2c22315b041bd9e2e427a1fed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3b482521f35945a9be33f1fd0e51d9') in 0.167381 seconds 
