@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
         scoreText.text = score.ToString();
 
         playButton.SetActive(false);
+        gameOver.SetActive(false);
 
         Time.timeScale = 1f;
         player.enabled = true;
