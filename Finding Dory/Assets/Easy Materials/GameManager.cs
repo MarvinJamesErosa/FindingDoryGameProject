@@ -58,7 +58,10 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         playButton.SetActive(false);
+        continue1.SetActive(false);
         gameOver.SetActive(true);
+        answerButton.SetActive(false);
+        skipButton.SetActive(false);
         Pause();
     }
 
