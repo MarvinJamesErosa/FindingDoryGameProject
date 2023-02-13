@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SoundManager : MonoBehaviour
+public class BackgroundMusicManager : MonoBehaviour
 {
-    [SerializeField] Image backgroundOnIcon;
-    [SerializeField] Image backgroundOffIcon;
+    [SerializeField] Image backgroundMusicOnIcon;
+    [SerializeField] Image backgroundMusicOffIcon;
     
         private bool muted = false;
 
@@ -49,13 +49,13 @@ public class SoundManager : MonoBehaviour
     {
         if (muted == false)
         {
-            backgroundOnIcon.enabled = true;
-            backgroundOffIcon.enabled = false;
+            backgroundMusicOnIcon.enabled = true;
+            backgroundMusicOffIcon.enabled = false;
         }
         else
         {
-            backgroundOnIcon.enabled = false;
-            backgroundOffIcon.enabled = true;
+            backgroundMusicOnIcon.enabled = false;
+            backgroundMusicOffIcon.enabled = true;
         }
     }
 
