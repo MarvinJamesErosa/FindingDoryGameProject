@@ -17,17 +17,12 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
-            direction = Vector3.up * strength;
+            direction = Vector3.up * strength * 3;
         }
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            direction = Vector3.up * strength;
-        }
-
-        direction.y += gravity * Time.deltaTime;
+        direction.y += gravity * Time.deltaTime * 3/2;
         transform.position += direction;
     }
 
