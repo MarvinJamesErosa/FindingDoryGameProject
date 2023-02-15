@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject skipButton;
     public GameObject sharkguess;
     public GameObject pauseButton;
+    public GameObject pausescreen;
 
     public int score { get; private set; }
 
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
         skipButton.SetActive(false);
         sharkguess.SetActive(false);
         pauseButton.SetActive(false);
+        pausescreen.SetActive(false);
 
         Application.targetFrameRate = 60;
 
@@ -87,8 +89,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0f;
         player.enabled = false;
-
-
+        pausescreen.SetActive(true);
     }
     public void IncreaseScore()
     {
