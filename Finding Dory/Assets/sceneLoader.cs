@@ -1,21 +1,46 @@
+using Mono.Cecil.Cil;
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.IO;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameModeSceneLoader : MonoBehaviour
+public class sceneLoader : MonoBehaviour
 {
     [SerializeField] private GameObject LoadingScreen;
     [SerializeField] private GameObject GameModeScreen;
     [SerializeField] private Slider ProgressBar;
 
+    static int prevIndex;
+    public void selectionScene()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void menuScene()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void optionScene()
+    {
+        prevIndex = SceneManager.GetActiveScene().buildIndex;
+        Debug.Log(prevIndex);
+        SceneManager.LoadScene(8);
+    }
+    public void howToPlayScene()
+    {
+        SceneManager.LoadScene(6);
+        
+    }
+    public void aboutUsScene()
+    {
+        SceneManager.LoadScene(7);
+    }
     public void GameMode(int BuildIndex)
     {
         GameModeScreen.SetActive(false);
         LoadingScreen.SetActive(true);
-
         StartCoroutine(LoadSequence(BuildIndex));
     }
 
@@ -29,16 +54,14 @@ public class GameModeSceneLoader : MonoBehaviour
             yield return null;
         }
     }
-    public void mediumScene()
+    public void OptionReturn()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(prevIndex);
     }
-    public void hardScene()
+
+    public void quitGame()
     {
-        SceneManager.LoadScene(5);
-    }
-    public void optionScene()
-    {
-        SceneManager.LoadScene(6);
+        Debug.Log("Game Closed");
+        Application.Quit();
     }
 }

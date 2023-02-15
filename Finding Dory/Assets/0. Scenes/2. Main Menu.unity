@@ -236,7 +236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 445994418}
-  - component: {fileID: 445994417}
+  - component: {fileID: 445994419}
   m_Layer: 0
   m_Name: Scene Loader
   m_TagString: Untagged
@@ -244,18 +244,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &445994417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445994416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6923ee4f5da773649949557848b7f20b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &445994418
 Transform:
   m_ObjectHideFlags: 0
@@ -271,6 +259,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &445994419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445994416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22eacd1bcdf5e4f4c905e3ee1470c5db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadingScreen: {fileID: 0}
+  GameModeScreen: {fileID: 0}
+  ProgressBar: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,8 +441,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 445994417}
-        m_TargetAssemblyTypeName: mainMenuSceneLoader, Assembly-CSharp
+      - m_Target: {fileID: 445994419}
+        m_TargetAssemblyTypeName: sceneLoader, Assembly-CSharp
         m_MethodName: optionScene
         m_Mode: 1
         m_Arguments:
@@ -715,8 +718,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 445994417}
-        m_TargetAssemblyTypeName: mainMenuSceneLoader, Assembly-CSharp
+      - m_Target: {fileID: 445994419}
+        m_TargetAssemblyTypeName: sceneLoader, Assembly-CSharp
         m_MethodName: quitGame
         m_Mode: 1
         m_Arguments:
@@ -848,8 +851,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 445994417}
-        m_TargetAssemblyTypeName: mainMenuSceneLoader, Assembly-CSharp
+      - m_Target: {fileID: 445994419}
+        m_TargetAssemblyTypeName: sceneLoader, Assembly-CSharp
         m_MethodName: selectionScene
         m_Mode: 1
         m_Arguments:
