@@ -16,4 +16,9 @@ public class mainMenuSceneLoader : MonoBehaviour
         Debug.Log("Game Closed");
         Application.Quit();
     }
+
+    public void optionScene()
+    {
+        SceneManager.LoadScene(6);
+    }
 }

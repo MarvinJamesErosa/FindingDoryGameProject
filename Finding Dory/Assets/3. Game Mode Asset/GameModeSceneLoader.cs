@@ -29,4 +29,16 @@ public class GameModeSceneLoader : MonoBehaviour
             yield return null;
         }
     }
+    public void mediumScene()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void hardScene()
+    {
+        SceneManager.LoadScene(5);
+    }
+    public void optionScene()
+    {
+        SceneManager.LoadScene(6);
+    }
 }
