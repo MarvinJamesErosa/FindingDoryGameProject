@@ -91,6 +91,14 @@ public class GameManager : MonoBehaviour
         player.enabled = false;
         pausescreen.SetActive(true);
     }
+    
+    public void Resume()
+    {
+        Time.timeScale = 1f;
+        player.enabled = true;
+        pausescreen.SetActive(false);
+    }
+
     public void IncreaseScore()
     {
         score++;
