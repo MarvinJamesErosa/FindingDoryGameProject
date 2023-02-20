@@ -24,12 +24,9 @@ EditorBuildSettings:
     path: Assets/0. Scenes/6. Hard.unity
     guid: 292ef10813b3bcb4da7c4db2f9f89a75
   - enabled: 1
-    path: Assets/0. Scenes/7. Option Screen.unity
-    guid: 877edb9e7be6aa54eb97556fb4134b6c
+    path: Assets/0. Scenes/7. How to Play.unity
+    guid: 3a91a6ed03320834a84c465586050b2b
   - enabled: 1
-    path: Assets/0. Scenes/8. How to Play 1.unity
-    guid: cd25804a13633f146bc57e4b5ee32f94
-  - enabled: 1
-    path: Assets/0. Scenes/9. About Us.unity
-    guid: d129752e791d3d14ba01e8f8d8efe774
+    path: Assets/0. Scenes/8. About Us.unity
+    guid: 3d3ac9131d0f4d44eb84a1a81f0c08bd
   m_configObjects: {}

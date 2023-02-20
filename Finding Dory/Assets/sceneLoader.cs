@@ -2,38 +2,42 @@ using Mono.Cecil.Cil;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class sceneLoader : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
     [SerializeField] private GameObject LoadingScreen;
     [SerializeField] private GameObject GameModeScreen;
     [SerializeField] private Slider ProgressBar;
+    [SerializeField] private GameObject OptionScreen;
 
     static int prevIndex;
-    public void selectionScene()
+    public void SelectionScene()
     {
         SceneManager.LoadScene(2);
     }
-    public void menuScene()
+    public void MenuScene()
     {
         SceneManager.LoadScene(1);
     }
-    public void optionScene()
+    public void OptionScene()
     {
         prevIndex = SceneManager.GetActiveScene().buildIndex;
         Debug.Log(prevIndex);
-        SceneManager.LoadScene(8);
+        
+        Canvas renderer = OptionScreen.GetComponent<Canvas>();
+        renderer.sortingOrder = 2;
     }
-    public void howToPlayScene()
+    public void HowToPlayScene()
     {
         SceneManager.LoadScene(6);
         
     }
-    public void aboutUsScene()
+    public void AboutUsScene()
     {
         SceneManager.LoadScene(7);
     }
@@ -56,10 +60,15 @@ public class sceneLoader : MonoBehaviour
     }
     public void OptionReturn()
     {
+        Canvas renderer = OptionScreen.GetComponent<Canvas>();
+        renderer.sortingOrder = 0;
+    }
+    
+    public void ReturnFunc()
+    {
         SceneManager.LoadScene(prevIndex);
     }
-
-    public void quitGame()
+    public void QuitGame()
     {
         Debug.Log("Game Closed");
         Application.Quit();
