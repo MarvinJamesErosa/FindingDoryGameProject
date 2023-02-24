@@ -4,8 +4,9 @@ using UnityEngine.EventSystems;
 public class Player : MonoBehaviour
 {
     private Vector3 direction;
-    public float gravity = -9.8f;
+    public float gravity;
     public float strength = 5f;
+    private bool isPaused;
 
     [SerializeField] private AudioSource clickSoundEffect;
     [SerializeField] private AudioSource scoreSoundEffect;
@@ -19,8 +20,24 @@ public class Player : MonoBehaviour
         direction = Vector3.zero;
     }
 
+    public void Pause()
+    {
+        Time.timeScale += 0f;
+        isPaused = true;
+    }
+
+    public void Resume()
+    {
+        Time.timeScale += 1f;
+        isPaused = false;
+    }
+
     private void Update()
     {
+        if (isPaused)
+        {
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             if (!EventSystem.current.IsPointerOverGameObject())
