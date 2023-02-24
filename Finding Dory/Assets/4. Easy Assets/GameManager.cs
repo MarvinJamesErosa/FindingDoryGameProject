@@ -17,6 +17,11 @@ public class GameManager : MonoBehaviour
     public GameObject pausescreen;
     public GameObject shark;
     public GameObject eel;
+    public GameObject S;
+    public GameObject H;
+    public GameObject A;
+    public GameObject R;
+    public GameObject K;
 
 
     public int score { get; private set; }
@@ -80,9 +85,23 @@ public class GameManager : MonoBehaviour
         }
 
     }
-    public void RandomFish()
+    public void Submit()
     {
+        if(shark.activeSelf)
+        {
+            string input = S.GetComponent<Text>().text + H.GetComponent<Text>().text
+                + A.GetComponent<Text>().text + R.GetComponent<Text>().text + K.GetComponent<Text>().text;
 
+            if(input.ToLower() == "shark")
+            {
+                shark.SetActive(false);
+                Resume();
+            }
+            else
+            {
+                GameOver();
+            }
+        }
     }
 
     public void GameOver()
