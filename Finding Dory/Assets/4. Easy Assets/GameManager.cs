@@ -101,4 +101,11 @@ public class GameManager : MonoBehaviour
         scoreText.text = score.ToString();
     }
 
+    public void Resume()
+    {
+        pausescreen.SetActive(false);
+        player.enabled = true;
+        Time.timeScale+= 1f;
+    }
+
 }

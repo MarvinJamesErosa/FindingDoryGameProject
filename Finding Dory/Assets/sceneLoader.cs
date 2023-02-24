@@ -72,6 +72,8 @@ public class SceneLoader : MonoBehaviour
             float ProgressValue = Mathf.Clamp01(Progress.progress / 0.9f);
             yield return null;
         }
+
+        yield return new WaitForSeconds(1f); // Add a delay of 1 second
     }
 
     // Returns to the previous scene and hides the loading screen
