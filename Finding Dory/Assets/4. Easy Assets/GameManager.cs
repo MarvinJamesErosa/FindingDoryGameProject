@@ -13,12 +13,10 @@ public class GameManager : MonoBehaviour
     public GameObject gameOver;
     public GameObject answerButton;
     public GameObject skipButton;
-    public GameObject sharkguess;
     public GameObject pauseButton;
     public GameObject pausescreen;
-    public GameObject randomfish;
+    public GameObject[] Options;
 
-    string[] fishes = { "SHARK", "EEL" };
 
     public int score { get; private set; }
 
@@ -30,7 +28,6 @@ public class GameManager : MonoBehaviour
         skipButton.SetActive(false);
         pauseButton.SetActive(false);
         pausescreen.SetActive(false);
-        randomfish.SetActive(false);
 
         Application.targetFrameRate = 60;
 
@@ -68,9 +65,7 @@ public class GameManager : MonoBehaviour
     }
     public void Answer()
     {
-        randomfish.SetActive(true);
-        Pause();
-        RandomFish();
+        
     }
     public void RandomFish()
     {
@@ -84,7 +79,6 @@ public class GameManager : MonoBehaviour
         gameOver.SetActive(true);
         answerButton.SetActive(false);
         skipButton.SetActive(false);
-        sharkguess.SetActive(false);
         Pause();
     }
 
