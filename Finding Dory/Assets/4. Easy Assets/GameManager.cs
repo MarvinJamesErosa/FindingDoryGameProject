@@ -15,7 +15,8 @@ public class GameManager : MonoBehaviour
     public GameObject skipButton;
     public GameObject pauseButton;
     public GameObject pausescreen;
-    public GameObject[] Options;
+    public GameObject shark;
+    public GameObject eel;
 
 
     public int score { get; private set; }
@@ -65,7 +66,19 @@ public class GameManager : MonoBehaviour
     }
     public void Answer()
     {
-        
+        GameObject[] fishes = { shark, eel };
+        int randomIndex = Random.Range(0, fishes.Length);
+        GameObject randomFish = fishes[randomIndex];
+
+        randomFish.SetActive(true);
+        foreach (GameObject fish in fishes)
+        {
+            if(fish != randomFish)
+            {
+                fish.SetActive(false);
+            }
+        }
+
     }
     public void RandomFish()
     {
@@ -79,6 +92,8 @@ public class GameManager : MonoBehaviour
         gameOver.SetActive(true);
         answerButton.SetActive(false);
         skipButton.SetActive(false);
+        shark.SetActive(false);
+        eel.SetActive(false);
         Pause();
     }
 
