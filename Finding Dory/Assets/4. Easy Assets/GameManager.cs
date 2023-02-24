@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +16,9 @@ public class GameManager : MonoBehaviour
     public GameObject sharkguess;
     public GameObject pauseButton;
     public GameObject pausescreen;
+    public GameObject randomfish;
+
+    string[] fishes = { "SHARK", "EEL" };
 
     public int score { get; private set; }
 
@@ -24,9 +28,9 @@ public class GameManager : MonoBehaviour
         continue1.SetActive(false);
         answerButton.SetActive(false);
         skipButton.SetActive(false);
-        sharkguess.SetActive(false);
         pauseButton.SetActive(false);
         pausescreen.SetActive(false);
+        randomfish.SetActive(false);
 
         Application.targetFrameRate = 60;
 
@@ -43,7 +47,6 @@ public class GameManager : MonoBehaviour
 
         playButton.SetActive(false);
         gameOver.SetActive(false);
-        sharkguess.SetActive(false);
         pauseButton.SetActive(true);
 
         Time.timeScale = 1f;
@@ -65,9 +68,15 @@ public class GameManager : MonoBehaviour
     }
     public void Answer()
     {
-        sharkguess.SetActive(true);
+        randomfish.SetActive(true);
         Pause();
+        RandomFish();
     }
+    public void RandomFish()
+    {
+
+    }
+
     public void GameOver()
     {
         playButton.SetActive(false);
@@ -91,6 +100,7 @@ public class GameManager : MonoBehaviour
         player.enabled = false;
         pausescreen.SetActive(true);
     }
+
     public void IncreaseScore()
     {
         score++;
