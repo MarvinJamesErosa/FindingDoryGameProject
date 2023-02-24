@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour
     public GameObject A;
     public GameObject R;
     public GameObject K;
+    public GameObject E;
+    public GameObject E2;
+    public GameObject L;
+    public bool isCorrect;
+
 
 
     public int score { get; private set; }
@@ -70,7 +75,7 @@ public class GameManager : MonoBehaviour
         Pause();
     }
     public void Answer()
-    {
+    {   
         GameObject[] fishes = { shark, eel };
         int randomIndex = Random.Range(0, fishes.Length);
         GameObject randomFish = fishes[randomIndex];
@@ -83,25 +88,34 @@ public class GameManager : MonoBehaviour
                 fish.SetActive(false);
             }
         }
-
     }
-    public void Submit()
-    {
-        if(shark.activeSelf)
-        {
-            string input = S.GetComponent<Text>().text + H.GetComponent<Text>().text
-                + A.GetComponent<Text>().text + R.GetComponent<Text>().text + K.GetComponent<Text>().text;
 
-            if(input.ToLower() == "shark")
-            {
-                shark.SetActive(false);
-                Resume();
-            }
-            else
-            {
-                GameOver();
-            }
+    public void sharkcheck1()
+    {
+        if (S != null && S.GetComponent<InputField>() != null && 
+            S.GetComponent<InputField>().text.ToLower() == "s")
+        {
+            isCorrect = true;
         }
+        else
+        {
+            isCorrect = false;
+        }
+    }    
+
+    public void SubmitShark()
+    {
+        if (isCorrect == false)
+        {
+            shark.SetActive(false);
+            eel.SetActive(false);
+            Resume();
+        }
+        else
+        {
+            GameOver();
+        }
+        Resume();
     }
 
     public void GameOver()
