@@ -109,13 +109,10 @@ public class GameManager : MonoBehaviour
         {
             shark.SetActive(false);
             eel.SetActive(false);
+            continue1.SetActive(false);
+            player.enabled = true;
             Resume();
         }
-        else
-        {
-            GameOver();
-        }
-        Resume();
     }
 
     public void GameOver()
