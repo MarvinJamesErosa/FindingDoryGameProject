@@ -231,7 +231,7 @@ MonoBehaviour:
   LoadingScreen: {fileID: 1964999510}
   GameModeScreen: {fileID: 352171629}
   ProgressBar: {fileID: 1305198527}
-  OptionScreen: {fileID: 1964999510}
+  OptionScreen: {fileID: 781304604}
 --- !u!4 &108924546
 Transform:
   m_ObjectHideFlags: 0
