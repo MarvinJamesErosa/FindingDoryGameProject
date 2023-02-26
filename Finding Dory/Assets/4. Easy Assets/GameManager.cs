@@ -1,13 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     private Player player;
     private Spawner spawner;
 
-    public Text scoreText;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI currentScoreText;
+    public TextMeshProUGUI BestScoreText;
     public GameObject continue1;
     public GameObject playButton;
     public GameObject gameOver;
@@ -28,9 +31,8 @@ public class GameManager : MonoBehaviour
     public bool isCorrect;
 
 
-
     public int score { get; private set; }
-
+    static int bestScore;
     private void Awake()
     {
         gameOver.SetActive(false);
@@ -52,7 +54,6 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         scoreText.text = score.ToString();
-
         playButton.SetActive(false);
         gameOver.SetActive(false);
         pauseButton.SetActive(true);
@@ -147,5 +148,12 @@ public class GameManager : MonoBehaviour
     {
         score++;
         scoreText.text = score.ToString();
+        currentScoreText.text = score.ToString();
+        if (score > bestScore)
+        {
+            bestScore = score;
+        }
+        BestScoreText.text = bestScore.ToString();
     }
+
 }

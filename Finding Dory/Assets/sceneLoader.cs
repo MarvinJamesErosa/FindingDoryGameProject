@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class SceneLoader : MonoBehaviour
+public class sceneLoader : MonoBehaviour
 {
  // This is the various objects
 // Loading screen, game mode screen, progress bar, and option screen
