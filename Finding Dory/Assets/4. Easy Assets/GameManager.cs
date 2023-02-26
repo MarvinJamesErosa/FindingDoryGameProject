@@ -141,6 +141,9 @@ public class GameManager : MonoBehaviour
     }
     public void Resume()
     {
+        shark.SetActive(false);
+        eel.SetActive(false);
+        continue1.SetActive(false);
         pausescreen.SetActive(false);
         player.enabled = true;
     }
